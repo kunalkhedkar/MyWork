@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent">
+
+<Button
+    android:background="@null"
+    android:onClick="startTask"
+    android:id="@+id/startTask"
+    android:text="start"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/startTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:id="@+id/progressbar"
+style="?android:progressBarStyleHorizontal"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

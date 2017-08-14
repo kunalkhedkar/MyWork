@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DialogWITHalertDialog_builder</string>
+
+    <string-array name="days">
+        <item>sun 1</item>
+        <item>sun 2</item>
+        <item>sun 3</item>
+        <item>sun 4</item>
+
+
+
+    </string-array>
+</resources>
