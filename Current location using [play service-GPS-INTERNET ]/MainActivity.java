@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     private static final String TAG = "TAG";
 
-    private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 1000;
+    private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 1000; 
 
     private Location mLastLocation;
 
