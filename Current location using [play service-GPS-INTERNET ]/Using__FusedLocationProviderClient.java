@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
                 return false;
             }
-            return locationMode != Settings.Secure.LOCATION_MODE_OFF;
+            return locationMode != Settings.Secure.LOCATION_MODE_OFF; 
 
         } else {
             locationProviders = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.LOCATION_PROVIDERS_ALLOWED);
