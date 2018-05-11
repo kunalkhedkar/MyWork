@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCameraClicked"
+        android:text="Camera"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="onContactClicked"
+        android:text="contact" />
+
+    <Button
+        android:onClick="onCallPhoneClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:text="CALL PHONE"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:onClick="onLocationClicked"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:onClick="onSmsClicked"
+        android:layout_marginTop="120dp"
+        android:text="SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:onClick="onStorageClicked"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:text="storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="onCameraStorageClicked"
+        android:text="Camera + storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>
