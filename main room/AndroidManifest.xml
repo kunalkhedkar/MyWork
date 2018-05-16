@@ -31,7 +31,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCmilyM3mj4ffIEs1jI5-VjhhRdvTnlDEg" />
+            android:value="google_api_key" />
 
         <activity android:name=".SelectOwnerDialog"
             android:theme="@style/AppTheme.Dialog"></activity>
