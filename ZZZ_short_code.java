@@ -1,5 +1,5 @@
         
-        Fragment back arrow with Naviagation Drawer 
+       // Fragment back arrow with Naviagation Drawer 
         
         //put this code in ur drawer activity
         getSupportFragmentManager().addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
@@ -29,5 +29,5 @@
             }
         });
         
-        ----------------------------------------------------------------------------------------------------------------------------------
+        //----------------------------------------------------------------------------------------------------------------------------------
         
