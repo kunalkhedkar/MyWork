@@ -39,6 +39,9 @@ controller contains functions which handle requests
 				return "/views/login.jsp";    
 			}
 
+		note: (@RequestParam("<htmal feild name>") String username)
+		if we put String variable and html feild name same no need to specify it seperatly
+
 	3) -- Send Data In Response 
 
 			- use ModelMap Object put data to it and these data will automatically availible to views
